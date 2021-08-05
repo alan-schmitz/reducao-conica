@@ -9,10 +9,11 @@ const Routes = () => (
         <BrowserRouter>
             <Switch>
                 <Route exact path="/">
-                    <Home />
+                <Calculadora />
+                   
                 </Route>
                 <Route path="/calculadora">
-                    <Calculadora />
+                <Home />
                 </Route>
                 <Route path="/orcamento">
                     <Orsamento />
