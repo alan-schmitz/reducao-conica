@@ -17,7 +17,6 @@ function Calculadora() {
         const raioTotal = tangente *(diametromaior/2)/deslocamento;
         const gralTotal = 360*deslocamento/tangente;
         const cordaMaior = raioTotal*(Math.sin(gralTotal/2)*2);
-        const raioMenor = raioTotal-tangente;
         setCm(cordaMaior);
         setgral(gralTotal);
         setTang(tangente);
